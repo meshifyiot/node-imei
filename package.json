@@ -1,6 +1,6 @@
 {
   "name": "@meshifyiot/node-imei",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "imei generator/checker",
   "main": "./src/imei.js",
   "devDependencies": {
