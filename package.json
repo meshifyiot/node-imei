@@ -1,25 +1,22 @@
 {
-  "name": "node-imei",
-  "version": "1.0.2",
+  "name": "@meshifyiot/node-imei",
+  "version": "1.0.3",
   "description": "imei generator/checker",
-  "main": "./scr/imei.js",
-  "devDependencies": {},
+  "main": "./src/imei.js",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BadMachine/node-imei.git"
-  },
+  "repository": "git://github.com/meshifyiot/node-imei.git",
   "keywords": [
     "imei",
     "imeigen",
     "imeicheck"
   ],
-  "author": "ME",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BadMachine/node-imei/issues"
-  },
-  "homepage": "https://github.com/BadMachine/node-imei#readme"
+  "author": "Patrick McDonagh",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
